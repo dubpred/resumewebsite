@@ -6,27 +6,31 @@ body{
   background: linear-gradient(#49479a 70%, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-
-.bodyclass{
-  font-family: Arial;
-  font-weight:bolder;
+  font-family:Verdana;
   margin-top: 13%;
   color:#ffffff;
 }
-.images{
 
-}
-
-img{
+svg{
   width: 5%;
   padding:20px;
+  transition:all 0.3s ease;
+
+}
+svg:hover{
+  -webkit-transform: scale(1.3);
+       -ms-transform: scale(1.3);
+       transform: scale(1.3);
+
 }
 a{
   text-decoration: none;
   color: #ffffff;
 }
 .myname{
+  font-weight:bolder;
   font-size:500%;
+}
+.images path{
+  fill: #ffffff;
 }
