@@ -1,0 +1,30 @@
+html{
+  height:100%;
+}
+body{
+  height:100%;
+  background: linear-gradient(#49479a 65%, #593578);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+.bodyclass{
+  font-family: Arial;
+  font-weight:bolder;
+  margin-top: 13%;
+  color:#ffffff;
+
+
+
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color:#a3b9d6;
+}
+.myname{
+  font-size:500%;
+}
