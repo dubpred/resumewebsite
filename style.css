@@ -3,7 +3,7 @@ html{
 }
 body{
   height:100%;
-  background: linear-gradient(#49479a 65%, #593578);
+  background: linear-gradient(#49479a 70%, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -14,16 +14,18 @@ body{
   font-weight:bolder;
   margin-top: 13%;
   color:#ffffff;
+}
+.images{
 
+}
 
-
+img{
+  width: 5%;
+  padding:20px;
 }
 a{
   text-decoration: none;
   color: #ffffff;
-}
-a:hover{
-  color:#a3b9d6;
 }
 .myname{
   font-size:500%;
