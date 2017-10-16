@@ -3,12 +3,13 @@ html{
 }
 body{
   height:100%;
-  background: linear-gradient(#49479a 70%, #000000);
+  background: linear-gradient(#49479a 60%, #000000);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family:Verdana;
   margin-top: 13%;
   color:#ffffff;
+  overflow-x:hidden;
 }
 
 svg{
@@ -30,7 +31,14 @@ a{
 .myname{
   font-weight:bolder;
   font-size:500%;
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+   animation-delay: 2s;
 }
 .images path{
   fill: #ffffff;
+}
+hr{
+  margin-left: 30%;
+  margin-right:30%;
+  margin-bottom: -15px;
 }
