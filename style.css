@@ -17,11 +17,15 @@ svg{
   padding:20px;
   transition:all 0.3s ease;
 
+  -moz-animation: bounceInDown 1.4 0.3s;
+  -webkit-animation: bounceInDown 1.4 0.3s;
+  animation: bounceInDown 1.4s 0.3s;
+
 }
 svg:hover{
   -webkit-transform: scale(1.3);
-       -ms-transform: scale(1.3);
-       transform: scale(1.3);
+  -ms-transform: scale(1.3);
+   transform: scale(1.3);
 
 }
 a{
@@ -32,9 +36,13 @@ a{
   font-weight:bolder;
   font-size:600%;
 
-    -moz-animation: bounceInRight 2s;
+    /*-moz-animation: bounceInRight 2s;
     -webkit-animation: bounceInRight 2s;
-    animation: bounceInRight 2s 0.3s;
+    animation: bounceInRight 2s 0.3s;*/
+
+    -moz-animation: rollIn 1.4 0.3s;
+    -webkit-animation: rollIn 1.4 0.3s;
+    animation: rollIn 1.4s 0.4s;
 
 }
 .images path{
