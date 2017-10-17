@@ -31,8 +31,6 @@ a{
 .myname{
   font-weight:bolder;
   font-size:500%;
-  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-   animation-delay: 2s;
 }
 .images path{
   fill: #ffffff;

@@ -401,8 +401,6 @@
 }
 
 @keyframes bounceInRight {
-  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-  animation-delay: 2s;
   from, 60%, 75%, 90%, to {
 
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
