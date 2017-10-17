@@ -1,5 +1,5 @@
 html{
-  height:100%;
+  height:70%;
 }
 body{
   height:100%;
@@ -31,6 +31,11 @@ a{
 .myname{
   font-weight:bolder;
   font-size:500%;
+
+    -moz-animation: bounceInRight 2s;
+    -webkit-animation: bounceInRight 2s;
+    animation: bounceInRight 2s 0.3s;
+
 }
 .images path{
   fill: #ffffff;
@@ -39,4 +44,7 @@ hr{
   margin-left: 30%;
   margin-right:30%;
   margin-bottom: -15px;
+}
+.animated fadeInUpBig{
+    animation-delay:0.6s;
 }
